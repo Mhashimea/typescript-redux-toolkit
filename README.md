@@ -1,1 +1,1 @@
-# typescrip-redux-toolkit
+# typescript-redux-toolkit
