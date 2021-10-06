@@ -1,0 +1,28 @@
+.app {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  max-width: 450px;
+  margin: auto;
+  padding: 0px 15px;
+}
+
+.text-center{
+  text-align: center;
+}
+
+input {
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+}
+
+button {
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  background-color: white;
+}

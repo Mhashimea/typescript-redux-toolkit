@@ -1,0 +1,98 @@
+/* Income component */
+.income-view {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.income-view h1 {
+  flex: 1;
+  font-size: 16px;
+  margin: 0;
+  font-weight: 400;
+}
+
+.income-view p {
+  color: green;
+  font-weight: 600;
+  font-size: 20px;
+  margin: 0;
+}
+
+
+
+/* Income Form */
+.income-form h1 {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.income-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.income-form input {
+  margin-bottom: 10px;
+}
+
+.income-form button {
+  width: 50%;
+}
+
+.income-form-action {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Expense */
+.expense, .history {
+  margin-top: 25px;
+}
+
+.expense-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.expense-header h1 {
+  margin: 0;
+  font-size: 18px;
+  flex: 1;
+}
+
+
+.expense-header a { 
+  color: white;
+}
+
+ /* History */
+ .history  h2{
+   font-size: 16px;
+   margin-top: 25px;
+   color: #eee;
+ }
+
+.history-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.history-item p {
+  flex: 1;
+  margin: 0;
+  font-size: 13px;
+}
+
+.history-item h4{
+  color: #eee;
+  margin: 0;
+}
+
+.history-item a {
+  margin-left: 15px;
+  color: red;
+}
